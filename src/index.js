@@ -16,14 +16,14 @@ const root = ReactDOM.createRoot(rootElement);
 root.render(
   <div className="app">
     <StrictMode>
-      <Navbar></Navbar>
-      <App />
-      <About />
+      {/* <Navbar></Navbar> */}
+      {/* <App /> */}
+      {/* <About /> */}
       <Header />
-      <Footer />
-      <Skills />
-      <Testimonial />
-      <Work />
+      {/* <Footer /> */}
+      {/* <Skills /> */}
+      {/* <Testimonial /> */}
+      {/* <Work /> */}
     </StrictMode>
   </div>
 );
