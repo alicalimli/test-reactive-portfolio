@@ -11,9 +11,6 @@ const Navbar = () => {
 
   return (
     <nav className="app__navbar">
-      <figure className="app__navbar-logo">
-        <img src={images.logo} alt="logo" />
-      </figure>
       <ul className="app__navbar-links">
         {["home", "about", "work", "skills", "contact"].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
