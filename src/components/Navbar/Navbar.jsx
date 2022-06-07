@@ -3,7 +3,7 @@ import React from "react";
 import "./Navbar.scss";
 
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return <nav className="nav-bar"></nav>;
 };
 
 export default Navbar;
