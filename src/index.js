@@ -16,7 +16,7 @@ const root = ReactDOM.createRoot(rootElement);
 root.render(
   <div className="app">
     <StrictMode>
-      {/* <Navbar></Navbar> */}
+      <Navbar></Navbar>
       {/* <App /> */}
       {/* <About /> */}
       <Header />
